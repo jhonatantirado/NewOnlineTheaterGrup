@@ -2,7 +2,6 @@ package dycs.Customer.domain.repository;
 
 import java.sql.SQLException;
 
-import dycs.Customer.domain.entity.BankAccount;
 import dycs.Customer.domain.entity.Customer;
 
 public interface CustomerRepository {

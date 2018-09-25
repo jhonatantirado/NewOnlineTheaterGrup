@@ -1,9 +1,6 @@
 package dycs.customers.domain.entity;
 
 import java.util.Date;
-import java.util.Set;
-
-import dycs.Customer.domain.entity.BankAccount;
 
 public class Customer {
 	private long CustomerID;

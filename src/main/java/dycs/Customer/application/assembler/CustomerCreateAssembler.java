@@ -6,10 +6,7 @@ import org.modelmapper.PropertyMap;
 import org.modelmapper.spi.MappingContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
-import dycs.Customer.application.dto.BankAccountCreateDto;
 import dycs.Customer.application.dto.CustomerCreateDto;
-import dycs.Customer.domain.entity.BankAccount;
 import dycs.Customer.domain.entity.Customer;
 import dycs.common.infrastructure.persistence.hibernate.UnitOfWorkHibernate;
 
