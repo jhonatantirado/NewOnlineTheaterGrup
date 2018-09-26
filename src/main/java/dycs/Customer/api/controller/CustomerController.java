@@ -48,8 +48,8 @@ public class CustomerController {
 	)
 	public ResponseEntity<Object> create(@RequestBody CustomerCreateDto customerCreateDto) throws Exception {
         try {
-        	
-        	customerCreateValidation.validate(customerCreateDto);
+        	CustomerCreateDto x = customerCreateDto;
+        	customerCreateValidation.validate(x);
             Customer customer = customerCreateAssembler.toEntity(customerCreateDto);
             customerHibernateRepository.create(customer);
             CustomerCreateDto customerCreateDto2 = customerCreateAssembler.toDto(customer);

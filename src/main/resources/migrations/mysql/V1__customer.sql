@@ -10,4 +10,4 @@ CREATE TABLE customer (
 ) ENGINE=INNODB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
-INSERT INTO customer2(customerID, NAME, email, STATUS,statusExpirationDate,moneySpent) VALUES(2,'Juan', 'jgsistem@gmail.com',1,'1995-01-29',1);
+INSERT INTO customer(customerID, NAME, email, STATUS,statusExpirationDate,moneySpent) VALUES(2,'Juan', 'jgsistem@gmail.com',1,'1995-01-29',1);

@@ -1,9 +1,12 @@
 package dycs.Customer.application.validation;
 
 
+import org.springframework.stereotype.Component;
+
 import dycs.Customer.application.dto.CustomerCreateDto;
 import dycs.common.application.notification.Notification;
 
+@Component
 public class CustomerCreateValidation {
 	public void validate(CustomerCreateDto customerCreateDto) {
 		Notification notification = this.validateData(customerCreateDto);

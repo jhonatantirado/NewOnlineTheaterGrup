@@ -2,7 +2,7 @@
 <!DOCTYPE hibernate-mapping PUBLIC
         "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
-<hibernate-mapping package="dycs.customers.domain.entity">
+<hibernate-mapping package="dycs.Customer.domain.entity">
 	<class name="Customer" table="customer">
         <id name="CustomerID" column="customerID">
             <generator class="native"/>
